@@ -1,3 +1,4 @@
+"GTKGUISYSTEM"
 "from https://www.codementor.io/@princerapa/python-media-player-vlc-gtk-favehuy2b"
 import sys
 import gi
