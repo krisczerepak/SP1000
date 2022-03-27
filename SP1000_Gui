@@ -1,0 +1,114 @@
+"from https://www.codementor.io/@princerapa/python-media-player-vlc-gtk-favehuy2b"
+import sys
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
+gi.require_version('GdkX11', '3.0')
+from gi.repository import GdkX11
+import vlc
+
+import RPi.GPIO as gp
+import os
+
+import subprocess
+
+class clibcam():
+	hproclibcam=subprocess
+	boolie_int=0
+	def __init__(self):
+		gp.setwarnings(False)
+		gp.setmode(gp.BOARD)
+
+		gp.setup(7, gp.OUT)
+		gp.setup(11, gp.OUT)
+		gp.setup(12, gp.OUT)
+
+		gp.setup(15, gp.OUT)
+		gp.setup(16, gp.OUT)
+		gp.setup(21, gp.OUT)
+		gp.setup(22, gp.OUT)
+
+		gp.output(11, True)
+		gp.output(12, True)
+		gp.output(15, True)
+		gp.output(16, True)
+		gp.output(21, True)
+		gp.output(22, True)
+	def capture(self, cam):
+		cmd = "libcamera-still -o capture_%d.jpg" % cam
+		os.system(cmd)
+	def output_cam(self):
+		#self.hproclibcam.run(["libcamera-vid","-n","-t","10000","-o","test.h264"])
+		self.hproclibcam.run(["rm","test.h264"])
+		self.result=self.hproclibcam.Popen(["libcamera-vid","-n","-t","10000","-o","test.h264"])
+	def switch_cam(self, icam_num):
+		if icam_num==0:
+			print("Enabling Camera Output A")
+			i2c = "i2cset -y 1 0x70 0x00 0x04"
+			os.system(i2c)
+			gp.output(7, False)
+			gp.output(11, False)
+			gp.output(12, True)
+			self.output_cam()
+		elif icam_num==0:
+			print("How did you see this?")
+		else:
+			print("All Else)")
+
+
+#MRL="file:///home/pi/Desktop/file_example_AVI_480_750kB.avi"
+MRL="/home/pi/Documents/sp1000_gui/test.h264"
+
+class MyWindow(Gtk.Window):
+	hlibcam=clibcam
+	def __init__(self):
+		super().__init__(title="Hello World")
+		self.box = Gtk.Box(spacing=6)#creates horizontally oriented box container and sets the spacing between children to 6 pixels
+		self.add(self.box)#adds the box to the GTK window
+
+		self.label=Gtk.Label(label="Enable Video Output", angle=25, halign=Gtk.Align.END)
+		self.box.pack_start(self.label, True, True, 0)#packs the button from left to right
+		self.button1 = Gtk.Button(label="Enable Video Output")
+		self.button1.connect("clicked", self.pb_on_button1_clicked)
+		self.box.pack_start(self.button1, True, True, 0)#packs the button from left to right
+
+		self.button2 = Gtk.Button(label="Enable CamA")
+		self.button2.connect("clicked", self.pb_on_button2_clicked)
+		self.box.pack_start(self.button2, True, True, 0)
+		self.dwgarea=Gtk.DrawingArea
+		self.vlcInstance = vlc.Instance("--no-xlib")
+		self.vlcplayer = self.vlcInstance.media_player_new()
+
+		self.button3 = Gtk.Button(label="Disable CamA")
+		self.button3.connect("clicked", self.pb_on_button3_clicked)
+		self.box.pack_start(self.button3, True, True, 0)
+
+	def pb_on_button1_clicked(self, widget):
+		win.win_id=win.box.get_window().get_xid()
+		win.vlcplayer.set_xwindow(win.win_id)
+		win.vlcplayer.set_mrl(MRL)
+		win.vlcplayer.play()
+
+	def pb_on_button2_clicked(self, widget):
+		print("Goodbye")
+		self.hlibcam.switch_cam(0)
+
+	def pb_on_button3_clicked(self, widget):
+		self.hlibcam.result.kill()
+		self.hlibcam.result.wait()
+		print("Goodbye")
+
+	def hlibcam_sethandle(self,libcam):
+		self.hlibcam=libcam
+
+libcam = clibcam()
+#libcam.switch_cam(0)
+win = MyWindow()
+win.hlibcam_sethandle(libcam)
+win.connect("destroy", Gtk.main_quit)
+win.show_all()
+# win.win_id=win.box.get_window().get_xid()
+# win.vlcplayer.set_xwindow(win.win_id)
+# win.vlcplayer.set_mrl(MRL)
+# win.vlcplayer.play()
+Gtk.main()
