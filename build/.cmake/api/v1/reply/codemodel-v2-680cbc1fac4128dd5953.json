@@ -1,0 +1,298 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "core",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						0,
+						8
+					]
+				},
+				{
+					"build" : "encoder",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "encoder",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "image",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "image",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "output",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "output",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "preview",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "preview",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "post_processing_stages",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "post_processing_stages",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "apps",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "utils",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utils"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8
+					],
+					"name" : "libcamera-apps",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "libcamera-jpeg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "VersionCpp::@57760688d1f824db5d9c",
+					"jsonFile" : "target-VersionCpp-Debug-59a86ea2f8e11e07466d.json",
+					"name" : "VersionCpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "encoders::@372742a3ab0a8675e45e",
+					"jsonFile" : "target-encoders-Debug-262c75804e9c4e1be444.json",
+					"name" : "encoders",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "images::@eee4dc3d290b9b193ebb",
+					"jsonFile" : "target-images-Debug-85c06042afb71a58922b.json",
+					"name" : "images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libcamera-hello::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-libcamera-hello-Debug-708c8bc56ca48acd56c2.json",
+					"name" : "libcamera-hello",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libcamera-jpeg::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-libcamera-jpeg-Debug-a6308a5cccc7b04b442f.json",
+					"name" : "libcamera-jpeg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libcamera-raw::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-libcamera-raw-Debug-7e36eec27d0a87d7ec8e.json",
+					"name" : "libcamera-raw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libcamera-still::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-libcamera-still-Debug-a5a8ad81485e6e5ca474.json",
+					"name" : "libcamera-still",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libcamera-vid::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-libcamera-vid-Debug-27488b40d516b96a83f6.json",
+					"name" : "libcamera-vid",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libcamera_app::@57760688d1f824db5d9c",
+					"jsonFile" : "target-libcamera_app-Debug-f89901a261bfd0549abd.json",
+					"name" : "libcamera_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "outputs::@5b5608eb28142aacc1b4",
+					"jsonFile" : "target-outputs-Debug-782285c5b23137033c99.json",
+					"name" : "outputs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "post_processing_stages::@decae25bfcbf2df514df",
+					"jsonFile" : "target-post_processing_stages-Debug-e146063e69b85829277c.json",
+					"name" : "post_processing_stages",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "preview::@4b16d1885309ab00dc2d",
+					"jsonFile" : "target-preview-Debug-44bc2f941e4d561d0015.json",
+					"name" : "preview",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+		"source" : "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

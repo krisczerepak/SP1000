@@ -1,0 +1,162 @@
+[
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dlibcamera_app_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o core/CMakeFiles/libcamera_app.dir/libcamera_app.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/core/libcamera_app.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/core/libcamera_app.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dlibcamera_app_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o core/CMakeFiles/libcamera_app.dir/post_processor.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/core/post_processor.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/core/post_processor.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dlibcamera_app_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o core/CMakeFiles/libcamera_app.dir/version.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/build/core/version.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build/core/version.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dlibcamera_app_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o core/CMakeFiles/libcamera_app.dir/options.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/core/options.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/core/options.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBAV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dencoders_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o encoder/CMakeFiles/encoders.dir/encoder.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/encoder.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/encoder.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBAV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dencoders_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o encoder/CMakeFiles/encoders.dir/null_encoder.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/null_encoder.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/null_encoder.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBAV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dencoders_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o encoder/CMakeFiles/encoders.dir/h264_encoder.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/h264_encoder.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/h264_encoder.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBAV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dencoders_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o encoder/CMakeFiles/encoders.dir/mjpeg_encoder.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/mjpeg_encoder.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/encoder/mjpeg_encoder.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Dimages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o image/CMakeFiles/images.dir/bmp.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/bmp.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/bmp.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Dimages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o image/CMakeFiles/images.dir/yuv.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/yuv.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/yuv.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Dimages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o image/CMakeFiles/images.dir/jpeg.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/jpeg.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/jpeg.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Dimages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o image/CMakeFiles/images.dir/png.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/png.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/png.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Dimages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o image/CMakeFiles/images.dir/dng.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/dng.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/image/dng.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Doutputs_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o output/CMakeFiles/outputs.dir/output.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/output.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/output.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Doutputs_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o output/CMakeFiles/outputs.dir/file_output.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/file_output.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/file_output.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Doutputs_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o output/CMakeFiles/outputs.dir/net_output.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/net_output.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/net_output.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -D_FILE_OFFSET_BITS=64 -Doutputs_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o output/CMakeFiles/outputs.dir/circular_output.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/circular_output.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/output/circular_output.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpreview_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -I/usr/include/libdrm -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o preview/CMakeFiles/preview.dir/null_preview.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/null_preview.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/null_preview.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpreview_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -I/usr/include/libdrm -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o preview/CMakeFiles/preview.dir/preview.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/preview.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/preview.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpreview_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -I/usr/include/libdrm -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o preview/CMakeFiles/preview.dir/drm_preview.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/drm_preview.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/drm_preview.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpreview_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -I/usr/include/libdrm -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o preview/CMakeFiles/preview.dir/egl_preview.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/egl_preview.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/preview/egl_preview.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DOPENCV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpost_processing_stages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o post_processing_stages/CMakeFiles/post_processing_stages.dir/post_processing_stage.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/post_processing_stage.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/post_processing_stage.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DOPENCV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpost_processing_stages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o post_processing_stages/CMakeFiles/post_processing_stages.dir/negate_stage.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/negate_stage.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/negate_stage.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DOPENCV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpost_processing_stages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o post_processing_stages/CMakeFiles/post_processing_stages.dir/hdr_stage.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/hdr_stage.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/hdr_stage.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DOPENCV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpost_processing_stages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o post_processing_stages/CMakeFiles/post_processing_stages.dir/pwl.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/pwl.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/pwl.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DOPENCV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpost_processing_stages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o post_processing_stages/CMakeFiles/post_processing_stages.dir/histogram.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/histogram.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/histogram.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DOPENCV_PRESENT=0 -D_FILE_OFFSET_BITS=64 -Dpost_processing_stages_EXPORTS -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -fPIC -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o post_processing_stages/CMakeFiles/post_processing_stages.dir/motion_detect_stage.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/motion_detect_stage.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/post_processing_stages/motion_detect_stage.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o apps/CMakeFiles/libcamera-jpeg.dir/libcamera_jpeg.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_jpeg.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_jpeg.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBAV_PRESENT=0 -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o apps/CMakeFiles/libcamera-raw.dir/libcamera_raw.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_raw.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_raw.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o apps/CMakeFiles/libcamera-hello.dir/libcamera_hello.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_hello.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_hello.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBAV_PRESENT=0 -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o apps/CMakeFiles/libcamera-vid.dir/libcamera_vid.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_vid.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_vid.cpp"
+},
+{
+  "directory": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DLIBDRM_PRESENT=1 -DLIBEGL_PRESENT=1 -DOPENCV_PRESENT=0 -DQT_PRESENT=0 -D_FILE_OFFSET_BITS=64 -I/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps -I/usr/local/include/libcamera -g -Wall -Wextra -pedantic -Wno-unused-parameter -faligned-new -Werror -Wfatal-errors -Wno-psabi -std=gnu++17 -o apps/CMakeFiles/libcamera-still.dir/libcamera_still.cpp.o -c /home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_still.cpp",
+  "file": "/home/pi/Documents/libcamera_test/SP1000_git/SP1000/libcamera-apps/apps/libcamera_still.cpp"
+}
+]
